@@ -3,7 +3,7 @@ class Translation(object):
       
       START_TEXT = """
 
-😃 Hi {},
+😄 Hi {},
 
 I am StarKing auto caption bot
 
@@ -11,7 +11,7 @@ I can automatically add pre-setted caption to the files in channels with awesome
 
 I am currently working for a channel if you want to use me, Contact my developer.
 
-⚜️ Maintained By 👉 @MrTonyStarKing
+👨‍💻 Maintained By 👉 @MrTonyStarKing
 """    
 
       HELP_TEXT = """
@@ -59,7 +59,7 @@ __ᴘʟᴇᴀsᴇ ɴᴏᴛᴇ ɪ ᴀᴍ ɴᴏᴛ ᴀ ᴘʀᴏ ᴄᴏᴅᴇʀ ᴀ
 
       MARKDOWN_TEXT = """
 
-🔰 <u>𝐀𝐛𝐨𝐮𝐭 𝐌𝐚𝐫𝐤𝐝𝐨𝐰𝐧</u>
+⛓ <u>𝐀𝐛𝐨𝐮𝐭 𝐌𝐚𝐫𝐤𝐝𝐨𝐰𝐧</u>
 
 
 👉 <b>Bold text</b>
