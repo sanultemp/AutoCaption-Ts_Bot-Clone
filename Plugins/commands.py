@@ -22,7 +22,7 @@ start_button=InlineKeyboardMarkup(
                   InlineKeyboardButton("📄 BOT STATUS", callback_data = "status_data")
               ], 
               [
-                  InlineKeyboardButton("📫 UPDATES", url = "https://t.me/Ts_bots"), 
+                  InlineKeyboardButton("📫 UPDATES", url = "https://t.me/StarKingBots"), 
                   InlineKeyboardButton("📕 ABOUT", callback_data = "about_data")
               ], 
               [
@@ -88,7 +88,7 @@ async def about(bot, cmd):
           chat_id = cmd.chat.id,
           text = Translation.ABOUT_TEXT, 
           reply_to_message_id = cmd.message_id,
-          parse_mode = "markdown",
+          parse_mode = "html",
           disable_web_page_preview = True, 
           reply_markup = about_button
       )   
@@ -162,7 +162,7 @@ async def button(bot, cmd: CallbackQuery):
                         InlineKeyboardButton("📄 BOT STATUS", callback_data = "status_data")
                        ], 
                        [
-                        InlineKeyboardButton("📫 UPDATES", url="https://t.me/ts_bots"),
+                        InlineKeyboardButton("📫 UPDATES", url="https://t.me/StarKingBots"),
                         InlineKeyboardButton("📕 ABOUT ME", callback_data="about_data")
                        ],
                        [
